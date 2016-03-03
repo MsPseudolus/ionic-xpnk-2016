@@ -1,0 +1,182 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.bar-xapnik {
+background-color: #59CCC4;
+border-color: #0A9EC7;
+background-image: linear-gradient(0deg, #0A9EC7, #0A9EC7 50%, transparent 50%);
+color: #FFF;
+}
+
+.mbr-overview .col {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: #f7f7f7;
+  text-align: center;
+  margin-right:15px;
+  margin-bottom: 15px;
+}
+
+.overview-btnrow {
+  margin-left: -10px;
+}
+
+.overview-btntop {
+  margin-top: -10px;
+}
+
+.overview-btn {
+  margin-top: -2px;
+}
+
+.button.button-twitter {
+    border-color: #0C63EE;
+    background-color: #3B83C0;
+    color: #FFF;
+}
+
+.xpnk-new-alert {
+	visibility: hidden;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.ui.cards > .card, .ui.card {
+	width: 100% !important;
+}
+
+#group-tweets {
+	background-color: #F9F7EE;
+}
+
+div.tweet-window {
+	max-height: 250px;
+	overflow: scroll;
+	margin: 15px 0 15px 0;
+	-webkit-overflow-scrolling: touch;
+}
+
+.NaturalImage-image {
+	height: 600px !important;
+}
+
+.animate-refresh.ng-enter,
+.animate-refresh.ng-leave,
+.animate-refresh.ng-move {
+  -webkit-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  position:relative;
+}
+
+.animate-refresh.ng-enter {
+  left:-10px;
+  opacity:0;
+}
+.animate-refresh.ng-enter.ng-enter-active {
+  left:0;
+  opacity:1;
+}
+
+.animate-refresh.ng-leave {
+  left:0;
+  opacity:1;
+}
+.animate-refresh.ng-leave.ng-leave-active {
+  left:-10px;
+  opacity:0;
+}
+
+.animate-refresh.ng-move {
+  opacity:0.5;
+}
+.animate-refresh.ng-move.ng-move-active {
+  opacity:1;
+}
+
+#tweets-container.item {
+  padding: 5px;
+  white-space: normal;
+}
+
+/* Twitter Action Buttons */
+.twAction {
+  width: 35px;
+  float: left;
+  margin-left: 65px;
+}
+
+.twReply {
+  margin-left: -15px !important;
+}
+
+.twAction {
+  fill: #AAB8C2;
+}
+
+.button-twaction {
+  background-color: #55acee;
+  color: #ffffff;
+  float: right;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#twClose {
+  font-size: 24px;
+  text-align: right;
+  color: #55acee;
+}
+
+.twTextInput label.item-input-wrapper {
+  background: #ffffff;
+}
+
+#charCount {
+  float: right;
+  margin-top: 9%;
+  margin-right: 15px;
+}
+
+.item.origTwt{
+  width: 90%;
+  float: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  border-color: #000000;
+}
+
+/*CSS provided by Twitter for formatting tweets inside the <blockquote></blockquote> tag */
+blockquote.twitter-tweet {
+  padding: 16px;
+  margin: 2px 2px 02px 2px;
+   /*
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  */
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+  border-left: 0px;
+}
+
+blockquote.twitter-tweet p {
+  width: 100%;
+  margin: 0 5px 10px 0px;
+  white-space: normal;
+}
+
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+  display: block;
+}

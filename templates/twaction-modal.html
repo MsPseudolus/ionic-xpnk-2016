@@ -1,0 +1,44 @@
+  <ion-modal-view>
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">TWACTION! - {{modaltempl}}</h1>
+    </ion-header-bar>
+    <ion-content>
+      <div class="row" id="twClose">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col" ng-click="closeModal();"><i class="icon ion-close"></i></div>
+      </div>
+      <div class="list">
+        <div class="item item-input-inset twTextInput">
+          <label class="item-input-wrapper">
+            <textarea rows="4" cols="50" placeholder="My reply..." ng-model="tweet.message" ng-maxlength="140"></textarea>
+          </label>
+        </div>
+
+          <input type="hidden" ng-model="contact.tweeter">
+          <input type="hidden" ng-model="contact.name">
+          <input type="hidden" ng-model="contact.info">
+          <input type="hidden" ng-model="charCount">
+
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col">
+          <span id="charCount">{{contact.charCount-tweet.message.length}}</span>
+        </div>
+        <div class="col">
+         <button class="button button-small button-twaction" ng-click="twReply(tweet.message); closeModal();">Reply</button>
+        </div>
+      </div><!--end row-->
+      <div class="row">
+        <div class="col item origTwt">
+          <span id="contact.name" ng-bind-html="contact.oembed">
+          </span>
+        </div>
+      </div><!--end row-->
+    </ion-content>
+  </div>
+  </ion-modal-view>

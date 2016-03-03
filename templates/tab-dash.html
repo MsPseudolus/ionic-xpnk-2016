@@ -1,0 +1,29 @@
+<ion-view view-title="Groups">
+  <ion-content>
+  <button class="button button-block button-dark" ng-click="identifyUser()">
+  Identify a user
+</button>
+<button class="button button-block button-positive" ng-if="identified" ng-click="pushRegister()">
+  Register for Push
+</button>
+    <ion-list>
+      <ion-item class="item item-body item-icon-right" type="item-text-wrap" href="#/tab/group/usv" name="tab-group">
+        <h2>USV</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item item-body item-icon-right" type="item-text-wrap" href="#/tab/group/danger-ladies" name="tab-group">
+        <h2>Danger Ladies</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item item-body item-icon-right" type="item-text-wrap" href="#/tab/group/tech-heroines" name="tab-group">
+        <h2>Tech Heroines</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+      <ion-item class="item item-body item-icon-right" type="item-text-wrap" href="#/tab/group/tech-heroines" name="tab-group">
+        <h2>Betaspring</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>

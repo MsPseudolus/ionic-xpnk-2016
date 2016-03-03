@@ -1,0 +1,129 @@
+{
+  Contributors:[]
+  Coordinates:<nil>
+  CreatedAt:Sat Jan 23 15:16:16 +0000 2016
+  Entities:{
+    Hashtags:[]
+    Urls:[
+      {
+        Indices:[126 140]
+        Url:https://t.co/fUFW1GY4no
+        Display_url:nyti.ms/1SaZdrl
+        Expanded_url:http://nyti.ms/1SaZdrl
+      }
+    ]
+    Url:{
+      Urls:[]
+    }
+    User_mentions:[
+      {
+        Name:The New York Times
+        Indices:[3 11]
+        Screen_name:nytimes
+        Id:807095
+        Id_str:807095
+      }
+    ]
+    Media:[]
+  }
+  FavoriteCount:0
+  Favorited:false
+  FilterLevel:
+  Id:690915960023334912
+  IdStr:690915960023334912
+  InReplyToScreenName:
+  InReplyToStatusID:0
+  InReplyToStatusIdStr:
+  InReplyToUserID:0
+  InReplyToUserIdStr:
+  Lang:en
+  Place:{
+    Attributes:map[]
+BoundingBox:{
+Coordinates:[]
+Type:
+}
+ContainedWithin:[]
+Country:
+CountryCode:
+FullName:
+Geometry:{
+Coordinates:[]
+Type:
+}
+ID:
+Name:
+PlaceType:
+Polylines:[]
+URL:
+}
+PossiblySensitive:false
+RetweetCount:1381
+Retweeted:false
+RetweetedStatus:0xc2084ed700
+Source:<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+Scopes:map[]
+Text:RT @nytimes: Breaking News: Michael Bloomberg is exploring plans for an independent presidential bid, advisers and allies say https://t.co/…
+Truncated:false
+User:{
+  ContributorsEnabled:false
+  CreatedAt:Sun Jun 07 23:46:15 +0000 2009
+  DefaultProfile:false
+  DefaultProfileImage:false
+  Description:GM @USV network. Chapter leader @Vetsintech. I love travel, tech, food, vintage shopping & sharing new ideas. Formerly Brittany Laughlin.
+  Entities:{
+    Hashtags:[]
+    Urls:[]
+    Url:{
+      Urls:[
+        {
+          Indices:[0 22]
+          Url:http://t.co/nANjEc0XLg Display_url:brittanymlaughlin.com
+          Expanded_url:http://www.brittanymlaughlin.com
+        }
+      ]
+    }
+    User_mentions:[]
+    Media:[]
+    }
+  FavouritesCount:343
+  FollowRequestSent:false
+  FollowersCount:5404
+  Following:false
+  FriendsCount:872
+  GeoEnabled:false
+  Id:45452822
+  IdStr:45452822
+  IsTranslator:false
+  Lang:en
+  ListedCount:336
+  Location:NYC
+  Name:Brittany L. Gorevic
+  Notifications:false
+  ProfileBackgroundColor:C0DEED
+  ProfileBackgroundImageURL:http://pbs.twimg.com/profile_background_images/66060950/DSCF1245_2.JPG
+  ProfileBackgroundImageUrlHttps:https://pbs.twimg.com/profile_background_images/66060950/DSCF1245_2.JPG
+  ProfileBackgroundTile:true
+  ProfileBannerURL:https://pbs.twimg.com/profile_banners/45452822/1402438949
+  ProfileImageURL:http://pbs.twimg.com/profile_images/1217456552/theoffice_normal.JPG
+  ProfileImageUrlHttps:https://pbs.twimg.com/profile_images/1217456552/theoffice_normal.JPG
+  ProfileLinkColor:0084B4
+  ProfileSidebarBorderColor:FFFFFF
+  ProfileSidebarFillColor:DDEEF6
+  ProfileTextColor:333333
+  ProfileUseBackgroundImage:true
+  Protected:false
+  ScreenName:br_ttany
+  ShowAllInlineMedia:false
+  Status:<nil>
+  StatusesCount:8898
+  TimeZone:Eastern Time (US & Canada)
+  URL:http://t.co/nANjEc0XLg UtcOffset:-18000
+  Verified:false
+  WithheldInCountries:
+  WithheldScope:
+}
+WithheldCopyright:false
+WithheldInCountries:[]
+WithheldScope:
+}

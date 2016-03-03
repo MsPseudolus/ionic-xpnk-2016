@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src * 'unsafe-inline' 'unsafe-eval' data: gap: https://ssl.gstatic.com;
+    object-src *; script-src * 'self' 'unsafe-inline' 'unsafe-eval';
+    style-src * 'unsafe-inline';
+    connect-src * 'unsafe-inline' 'unsafe-eval';
+    media-src *;
+    frame-src *">
+    <meta name="twitter:widgets:csp" content="on">
+    <meta name="twitter:widgets:autoload" content="off">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/xapnik-styles.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+	<script src="lib/ionic-service-core/ionic-core.js"></script>
+	<script src="lib/ionic-service-push/ionic-push.js"></script>
+	<script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+    <!--social api tools -->
+    <script src="lib/ng-cordova-oauth/dist/ng-cordova-oauth.min.js"></script>
+    <script src="../plugins/com.oauthio.plugins.oauthio/dist/oauth.js"></script>
+    <script src="lib/ng-twitter-api/dist/ng-twitter-api.min.js"></script>
+    <!--removing this ^^ breaks shit right now-->
+    <script src="lib/sha1.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- xpnk js -->
+    <script src="js/app.js"></script>
+    <script src="js/underscore/underscore-min.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+
+  </head>
+  <body ng-app="xpnk">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-xapnik">
+      <ion-nav-back-button class="button-clear">
+      <i class="ion-arrow-left-c"></i>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>
